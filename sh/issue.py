@@ -1,0 +1,1 @@
+import subprocessfrom app import app@app.route('/issue')def issue():  return subprocess.check_output(['cat', '/etc/issue'])

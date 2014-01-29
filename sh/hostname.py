@@ -1,0 +1,1 @@
+import subprocessfrom app import app@app.route('/hostname')def hostname():  return subprocess.check_output('hostname')

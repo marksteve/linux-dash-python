@@ -1,0 +1,1 @@
+import subprocessfrom app import app@app.route('/uptime')def uptime():  return str(int(float(subprocess.check_output(    ['cat', '/proc/uptime'],  ).decode('utf-8').split()[0]) / 60 / 60))
