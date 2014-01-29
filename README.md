@@ -1,7 +1,7 @@
 linux-dash-python
 =================
 
-Python port of [afaqurk](https://github.com/afaqurk/linux-dash).
+Python port of [afaqurk/linux-dash](https://github.com/afaqurk/linux-dash).
 
 Setup and run
 -------------
